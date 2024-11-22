@@ -15,7 +15,7 @@ protected DcMotorEx MotorBR;
     public void runOpMode() throws InterruptedException {
         // Initialization code goes here
 MotorFL = hardwareMap.get(DcMotorEx.class, "motor1");
-MotorFR = hardwareMap.get(DcMotorEx.class, "motor2")
+MotorFR = hardwareMap.get(DcMotorEx.class, "motor2");
 MotorBL = hardwareMap.get(DcMotorEx.class, "motor3");
 MotorBR = hardwareMap.get(DcMotorEx.class, "motor4");
 
@@ -43,6 +43,7 @@ MotorBR = hardwareMap.get(DcMotorEx.class, "motor4");
            MotorFR.setPower(frontRightPower);
            MotorBL.setPower(backLeftPower);
            MotorBR.setPower(backRightPower);
+
 
 
 
